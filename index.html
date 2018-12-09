@@ -7,7 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+<link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet"> 
 </head>
 <body>
   <!--main container start-->
@@ -16,7 +23,7 @@
     <!-- mobile nav bar -->
         <div class="title-bar topbar-center-logo-mobile topbar-responsive" data-responsive-toggle="topbar-center-logo" data-hide-for="medium">
         <div class="title-bar-left">
-          <div class="title-bar-title"><img class="animated flipInY delay-1s" src="images/logo.svg" style="height:39px;"  alt="logo"></div>
+          <div class="title-bar-title"><img class="animated flipInY delay-1s" src="images/crystalwelcome0001.tif" style="height:390px;"  alt="welcome"></div>
         </div>
         <div class="title-bar-right">
           <button class="menu-icon" type="button" data-toggle="topbar-center-logo"></button>
@@ -28,7 +35,6 @@
         <div class="top-bar topbar-center-logo" id="topbar-center-logo">
 
         <div class="top-bar-center">
-          <img class="animated flipInY delay-1s" src="images/logo.svg" style="height:90px;" alt="logo">
         </div>
         <div class="top-bar-right">
           <ul class="menu vertical medium-horizontal">
@@ -46,6 +52,7 @@
 <!--start main container/header-->
 <div class="grid-x">
   <div class="small-12 medium-12 large-12 cell main-container">
+    <img class="animated fadeInLeft" id="headerImage" src="images/crystalwelcome0001.jpg" alt="3D glowing crystals with wlecome quotes">
     <h1 class="animated zoomIn" id="mainGreeting">Welcome to Me</h1></div>
 </div>
 </div>
@@ -57,13 +64,11 @@
   <div class="auto cell"></div>
 
 <div class="small-3 medium-3 large-3 cell about-pic">
-<img class="animated rotateIn delay-3s" id="mePhoto" src="images/me_photo.svg" alt="a picture of me">
+<img class="animated fadeInDownBig" id="mePhoto" src="images/me3.jpg" alt="a picture of me">
 </div>
-
 <div class="auto cell"></div>
-
 <div class="small-6 medium-6 large-6 cell about-text">
-<p id="description">.</p>
+<p id="description">My name is Shannon Stoltz-Limin, I'm a 2nd year student at Fanshawe College, taking the Interactive Media and Production program. I'm a writer, highly creative, and an avid videogamer. There's always a pen and notebook with me incase of a sudden burst of inspiration, and I never leave home without a book. Every year during November; I try to take part in a month long writing "competition" called NaNoWriMo (National Novel Writing Month), it's a lot of fun and a great way to meet people at the local write-ins. One day I'm hoping that a publisher will pick up one of my manuscripts and offer me a contract. I've also found that I have a love for making simple animations and pretty things in Cinema 4D. After following a tutorial and modifiying it so I was happy, I designed the Cover image for this very website!</p>
 </div>
 
 <div class="auto cell"></div>
@@ -77,18 +82,11 @@
 
 <div class="small-10 medium-10 large-10 cell skills-header">
   <h1>My Skills</h2>
-  <h3>I have skills in these fields:</h3>
 </div>
-
-
 <div class="auto cell"></div>
-
-  <div id="ps" class="small-4 small-offset-1 medium-4 medium-offset-1 large-4 large-offset-2 cell ps animated infinite jello"><img src="images/photoshop_icon.svg" style="width:200px"></div>
-  <div id="ai" class="small-4 small-offset-1 medium-4 medium-offset-1 large-4 large-offset-2 cell ai animated infinite rubberBand"><img src="images/illustrador_icon.svg" style="width:200px"></div>
-  <div id="ae" class="small-4 small-offset-1 medium-4 medium-offset-1 large-4 large-offset-2 cell ae animated infinite heartBeat"><img src="images/aftereffects_icon.svg" style="width:200px"></div>
-  <div id="c4d" class="small-4 small-offset-1 medium-4 medium-offset-1 large-4 large-offset-2 cell c4d animated infinite tada"><img src="images/c4d_icon.svg" style="width:200px"></div>
-
-
+<h3>Cinema 4D</h3>
+<h3>Photoshop</h3>
+<h3>After Effects</h3>
 <div class="auto cell"></div>
 </div>
 </div>
@@ -158,7 +156,7 @@
 
         <button class="small-centered cell"><a id="backTop" href="#Start">Back To Top</a></button>
 
-        <h3 id="copyright">&copy;JMA Designs</h3>
+        <h3 id="copyright">&copy;Shannon Stoltz-Limin</h3>
 
     </footer>
     
