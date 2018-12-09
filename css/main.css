@@ -89,7 +89,7 @@ h2{
 /* main header image */
 
 #mainGreeting{
-  background: url(../images/crystalwelcome0001.tif;
+  background: url(../images/crystalwelcome0001.jpg
   padding-bottom: 400px;
   padding-top: 400px;
   text-align: center;
@@ -97,7 +97,7 @@ h2{
 
 @media only screen and (max-width: 720px) {
    #mainGreeting{
-       background: url(../images/header_mobile.png);
+       background: url(../images/crystalwelcome0001.jpg);
    }
 }
 @media only screen and (min-width: 721px) {
@@ -137,7 +137,7 @@ h2{
 }
 
 .about-text{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 
@@ -299,6 +299,10 @@ textarea{
 
 .contact-form{
   margin-bottom: 100px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  padding-right: 100px
+  
 }
 
 #submitButton{
@@ -318,7 +322,7 @@ textarea{
 
 .footer-container{
   padding-bottom: 15px;
-  background: #252525;
+  background: #000;
 }
 
 #copyright{
