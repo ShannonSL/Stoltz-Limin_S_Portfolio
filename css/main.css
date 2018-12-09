@@ -259,9 +259,11 @@ margin-bottom: 100px;
 
 
 .video-container{
+  width: 100%;
+  max-wdith: 500px;
+  position: relative;
 
 }
-
 .video-header{
 
 }
