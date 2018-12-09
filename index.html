@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Shannon Stoltz-Limin</title>
+    <title>Shannon Stoltz-Limin Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
@@ -21,14 +21,7 @@
   <div class="grid-frame" id="mainContainer">
     <div id="Start">
     <!-- mobile nav bar -->
-        <div class="title-bar topbar-center-logo-mobile topbar-responsive" data-responsive-toggle="topbar-center-logo" data-hide-for="medium">
-        <div class="title-bar-left">
-          <div class="title-bar-title"><img class="animated flipInY delay-1s" src="images/crystalwelcome0001.tif" style="height:390px;"  alt="welcome"></div>
-        </div>
-        <div class="title-bar-right">
-          <button class="menu-icon" type="button" data-toggle="topbar-center-logo"></button>
-        </div>
-        </div>
+        
         <!-- /mobile nav bar -->
 
         <!-- medium and larger nav bar -->
@@ -52,7 +45,7 @@
 <!--start main container/header-->
 <div class="grid-x">
   <div class="small-12 medium-12 large-12 cell main-container">
-    <img class="animated fadeInLeft" id="headerImage" src="images/crystalwelcome0001.jpg" alt="3D glowing crystals with wlecome quotes">
+    <img class="animated fadeInLeft delay-1s" id="headerImage" src="images/crystalwelcome0001.jpg" alt="3D glowing crystals with wlecome quotes">
     <h1 class="animated zoomIn" id="mainGreeting">Welcome to Me</h1></div>
 </div>
 </div>
@@ -64,7 +57,7 @@
   <div class="auto cell"></div>
 
 <div class="small-3 medium-3 large-3 cell about-pic">
-<img class="animated fadeInDownBig" id="mePhoto" src="images/me3.jpg" alt="a picture of me">
+<img class="animated fadeInDownBig delay-4s" id="mePhoto" src="images/me3.jpg" alt="a picture of me">
 </div>
 <div class="auto cell"></div>
 <div class="small-6 medium-6 large-6 cell about-text">
@@ -81,7 +74,7 @@
 <div class="auto cell"></div>
 
 <div class="small-10 medium-10 large-10 cell skills-header">
-  <h1>My Skills</h2>
+  <h2>My Skills</h2>
 </div>
 <div class="auto cell"></div>
 <h3>Cinema 4D</h3>
@@ -135,17 +128,20 @@
 <!--end video container-->
 
 <!--start contact container-->
-<div id="Contact">
-<div class="grid-x grid-container contact-container">
-  <div class="small-offset-1 small-10 medium-offset-1 medium-10 large-offset-1 large-10 cell contact-header">
-    <h2 id="contactMe">Contact Me</h2>
-    <form class="contact-form" action="form.php" method="POST">
-      <input type="text" name="name" placeholder="Your Name">
-      <input type="text" name="mail" placeholder="Your E-mail">
-      <input type="text" name="subject" placeholder="Subject">
-      <textarea name="message" placeholder="Your Message"></textarea>
-      <button class="small-1 medium-1 large-1 cell" id="submitButton" type="submit" name="submit">Submit</button>
-    </form>
+<div id="Contact" class=“grid container>
+    <div class="grid-x grid-padding-x“>
+      <div class="small-offset-1 small-10 medium-offset-1 medium-10 large-offset-1 large-10 cell contact-header">
+        <h2 id="contactMe">Contact Me</h2>
+        <h3> Interested in anything you saw? Would you like to know more about my work? Please feel free to contact me!</h3>
+        <form class="contact-form" action="form.php" method="POST">
+          <input type="text" name="name" placeholder="Your Name">
+          <input type="text" name="mail" placeholder="Your E-mail">
+          <input type="text" name="subject" placeholder="Subject">
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <button class="small-1 medium-1 large-1 cell" id="submitButton" type="submit" name="submit">Submit</button>
+        </form>
+      </div>
+    </div>
   </div>
 
 </div>
